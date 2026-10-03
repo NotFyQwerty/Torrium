@@ -7,7 +7,7 @@ A BitTorrent client written from scratch in TypeScript. Planned as a desktop app
 Work in progress.
 
 - [x] Bencode decoder
-- [ ] Bencode encoder
+- [x] Bencode encoder
 - [ ] .torrent parsing and info_hash
 - [ ] Tracker announce
 - [ ] Peer wire protocol

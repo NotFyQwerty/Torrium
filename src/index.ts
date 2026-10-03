@@ -17,4 +17,5 @@ import { connectToPeer } from "./peer.js";
 
 const first = peers[0];
 if (!first) throw new Error("No peers from tracker");
-connectToPeer(first, torrent);
+
+connectToPeer(first, torrent, 13468);

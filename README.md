@@ -10,7 +10,7 @@ Work in progress.
 - [x] Bencode encoder
 - [x] .torrent parsing and info_hash
 - [x] Tracker announce
-- [ ] Peer wire protocol
+- [x] Peer wire protocol
 - [ ] Piece download and verification
 - [ ] HTTP/WebSocket API
 - [ ] Desktop UI

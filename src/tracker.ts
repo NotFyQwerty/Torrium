@@ -4,7 +4,10 @@ import type { Torrent } from "./torrent.js";
 
 export type Peer = { ip: string; port: number };
 
-const PEER_ID = Buffer.concat([Buffer.from("-TR0001-"), randomBytes(12)]);
+export const PEER_ID = Buffer.concat([
+  Buffer.from("-TR0001-"),
+  randomBytes(12),
+]);
 
 function percentEncode(bytes: Buffer): string {
   return [...bytes].map((b) => "%" + b.toString(16).padStart(2, "0")).join("");

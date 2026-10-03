@@ -8,7 +8,7 @@ Work in progress.
 
 - [x] Bencode decoder
 - [x] Bencode encoder
-- [ ] .torrent parsing and info_hash
+- [x] .torrent parsing and info_hash
 - [ ] Tracker announce
 - [ ] Peer wire protocol
 - [ ] Piece download and verification
